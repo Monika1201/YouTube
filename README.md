@@ -1,3 +1,3 @@
 # YouTube
 YouTube HomePage [clike here](https://youtubehomepagmoni.netlify.app/).
-![Project Screenshot]("C://Users/monik//Pictures//Screenshots//Screenshot 2024-12-06 223143.png")
+![Project Screenshot]("https://github.com/Monika1201/YouTube/blob/main/images/Screenshot%202024-12-07%20015240.png")
