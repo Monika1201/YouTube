@@ -1,2 +1,2 @@
 # YouTube
-YouTube HomePage [clike here]([https://youtubehomepagmoni.netlify.app/]).
+YouTube HomePage [clike here](https://youtubehomepagmoni.netlify.app/).
