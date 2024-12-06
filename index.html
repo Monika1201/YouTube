@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #202020;
+        }
+        .search-bar {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+        }
+        .categories {
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center;
+            gap: 20px; 
+            padding: 10px;
+        }
+        .categories button {
+            font-size: large;
+            padding: 8px 12px;
+            background-color: #383838;
+            color: white;
+            border: none; 
+            border-radius: 5px;
+            cursor: pointer;
+            white-space: nowrap;
+            display: inline-block;
+            outline: none; 
+        }
+
+        .categories button:hover {
+            background-color: #505050; 
+        }
+
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .layout {
+            background-color: #0c0606;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .layout img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .layout h3 {
+            font-size: 16px;
+            padding: 10px;
+        }
+        .layout p {
+            font-size: 14px;
+            color: #aaaaaa;
+            margin: 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2>YouTube</h2>
+        </div>
+        <div class="search-bar">
+            <input id=searchInput type="text" placeholder="Search">
+        </div>
+        <div class="account">
+            <button id="signInBtn">Sign In</button>
+        </div>
+    </div>
+    <div class="categories">
+        <button>All</button>
+        <button>Music</button>
+        <button>Playlists</button>
+        <button>Trending News</button>
+        <button>Vijay</button>
+        <button>Comedy</button>
+        <button>Virat</button>
+        <button>Sports</button>
+        <button>Top Movies</button>
+        <button>Tamil Cinema</button>
+        <button>News</button>
+        <button>Gaming</button>
+        <button>Indian Music</button>
+    </div>    
+    <div class="grid">
+        <div class="layout">
+            <img src="https://th-i.thgim.com/public/entertainment/movies/et90m1/article68878353.ece/alternates/LANDSCAPE_1200/Jyotika%20Kanguva%20Suriya.jpg" alt="Video Thumbnail">
+            <h3>Kanguva review</h3>
+            <p>450K views • 1 week ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202411/nayanthara-dhanush-180946278-16x9_0.jpg?VersionId=X5bHtrn8j0dc.2NzQPMju1sx8EBx2G__&size=690:388" alt="Video Thumbnail">
+            <h3>Nayanthara x Dhanush issue</h3>
+            <p>6.9M views • 6 days ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://i.ytimg.com/vi/lnblwubUpvE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBr3X08X-pEeJAPsM0BBJNE5lV38g" alt="Video Thumbnail">
+            <h3>Spotknack</h3>
+            <p>8M views • 2 months ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://th-i.thgim.com/public/entertainment/movies/n76pg7/article68817722.ece/alternates/LANDSCAPE_1200/AMARAN%20review.jpg" alt="Video Thumbnail">
+            <h3>Amaran</h3>
+            <p>700K views • 5 days ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://www.hindustantimes.com/ht-img/img/2024/11/20/1600x900/AR_Rahman_1732092773615_1732092774100.jpg" alt="Video Thumbnail">
+            <h3>A.R.Rahman divorce</h3>
+            <p>4.1M views • 3 weeks ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://static.toiimg.com/thumb/imgsize-106408,msid-113972920/113972920.jpg?width=500&resizemode=4" alt="Video Thumbnail">
+            <h3>Bigg Boss promo</h3>
+            <p>2.5M views • 1 month ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://www.livemint.com/lm-img/img/2024/11/22/600x338/Bumrah_1732263848281_1732263848679.jpg" alt="Video Thumbnail">
+            <h3>Smith vs Virat</h3>
+            <p>5.8M views • 2 weeks ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://i.ytimg.com/vi/oP88LHBukW8/maxresdefault.jpg" alt="Video Thumbnail">
+            <h3>Lubber Bandhu</h3>
+            <p>1.2M views • 1 week ago</p>
+        </div>
+        <div class="layout">
+            <img src="https://teluguone.com/teluguoneUserFiles/img/Manasilayo%20Vettaiyan.webp" alt="Video Thumbnail">
+            <h3>Manasilayo</h3>
+            <p>700K views • 5 days ago</p>
+        </div>
+    </div>
+    <script>
+        const buttons = document.querySelectorAll("button");
+
+        buttons.forEach(button => {
+          button.addEventListener("mousedown", () => {
+        button.style.backgroundColor = "#ff5722"; 
+        });
+
+        button.addEventListener("mouseup", () => {
+          button.style.backgroundColor = "#383838";
+        });
+
+        button.addEventListener("mouseout", () => {
+          button.style.backgroundColor = "#383838"; 
+        });
+    });
+        const searchInput = document.getElementById("searchInput");
+        searchInput.addEventListener("focus", () => {
+            searchInput.placeholder = "Type and hit Enter...";
+        });
+        searchInput.addEventListener("blur", () => {
+            searchInput.placeholder = "Search";
+        });
+        const signInBtn = document.getElementById("signInBtn");
+        signInBtn.addEventListener("click", () => {
+            alert("Sign In functionality coming soon!");
+        });
+
+    </script>
+</body>
+</html> 
